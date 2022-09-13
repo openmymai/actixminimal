@@ -4,6 +4,7 @@ Minimum Rust code in Actix that can run Web Server to serve static files.
 
 ### Run web server
 
+Assume that you have installed Rust on your computer.<br>
 Clone the repo, get into the directory and run it.
 ```
 git clone https://github.com/openmymai/actixminimal.git
