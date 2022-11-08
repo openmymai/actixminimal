@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'promptregular';
+    src: url('prompt-regular-webfont.woff2') format('woff2'),
+         url('prompt-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Prompt', serif;
+    font-size: 25px;
+}
