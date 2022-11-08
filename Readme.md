@@ -14,8 +14,7 @@ cargo run
 Browse to http://localhost:8000
 Then you can see that it serve index.html from public folder.
 
-This test run on the same machine, actix use CPU less than 10%
-Update to Rust 1.65.0, more robust.
+
 
 ### Siege Test on Apple M1 MackBook Pro Ram 8G
 ```
@@ -35,4 +34,24 @@ Successful transactions:        6279
 Failed transactions:	         316
 Longest transaction:	        3.21
 Shortest transaction:	        0.00
+```
+### Siege Test on Apple M1 MackBook Pro Ram 8G, upgrade to Macos Ventura 13.0
+Actix use CPU less than 10%
+Update to Rust 1.65.0, more robust.
+#### This test has to break because of longer run.
+```
+Lifting the server siege...
+Transactions:		      154862 hits
+Availability:		       99.91 %
+Elapsed time:		      499.55 secs
+Data transferred:	     1472.58 MB
+Response time:		        0.12 secs
+Transaction rate:	      310.00 trans/sec
+Throughput:		        2.95 MB/sec
+Concurrency:		       37.13
+Successful transactions:      154864
+Failed transactions:	         137
+Longest transaction:	       19.17
+Shortest transaction:	        0.00
+ 
 ```
