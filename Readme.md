@@ -14,6 +14,9 @@ cargo run
 Browse to http://localhost:8000
 Then you can see that it serve index.html from public folder.
 
+This test run on the same machine, actix use CPU less than 10%
+Update to Rust 1.65.0, more robust.
+
 ### Siege Test on Apple M1 MackBook Pro Ram 8G
 ```
 % siege http://localhost:8000
